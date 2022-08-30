@@ -27,10 +27,15 @@ public class Board {
 	
 	public Piece piece(int row, int column) {
 		return pieces[row][column];
-		//sobre carca do método abaixo:	
+		//sobre carga do método abaixo:	
 	}
-	    //sobre carca do método acima:
+	    //sobre carga do método acima:
 	public Piece piece(Position position) {
 		return pieces[position.getRow()][position.getColumn()];
+	}
+	
+	public void placePiece(Piece piece, Position position) {
+		pieces[position.getRow()][position.getColumn()] = piece;
+		piece.position = position;
 	}
 }

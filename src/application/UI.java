@@ -5,7 +5,7 @@ import chess.ChessPiece;
 public class UI {
 	
 	public static void printBoard(ChessPiece[][] pieces) {
-		//para imprimir na tela o tabuleiro
+		//para monta na tela o tabuleiro
 		//montando as linhas
 		for (int i=0; i<pieces.length; i++) {
 		System.out.print((8- i) + " ");
