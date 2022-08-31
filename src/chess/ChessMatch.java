@@ -4,7 +4,7 @@ import boardgame.Board;
 import boardgame.Position;
 import chess.pieces.King;
 import chess.pieces.Rook;
-
+//Partida de Xadrez
 public class ChessMatch {
 
 	private Board board;
